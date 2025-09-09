@@ -1,3 +1,6 @@
+---
+# main style
+---
 /*!
  * Project_Name: Themezy Insurance Template
  * Author: Themezy
@@ -8,19 +11,4 @@
 /*=========================================== 
  * Importing CSS Libraries
  *===========================================*/
- @import 	"libs/settings",
- 			"libs/mixins",
- 			"libs/normalize",
- 			"libs/global",
- 			"libs/components",
-
- 			// importing bootstrap grid framework
- 			"libs/bootstrap-grid/settings",
- 			"libs/bootstrap-grid/mixins",
- 			"libs/bootstrap-grid/grid",
-
-			// importing layout styles
- 			"layout/header",
- 			"layout/content",
- 			"layout/footer";
-			
+@use "_core" as *;

@@ -1,0 +1,75 @@
+// --- TOC sizing tokens ---
+$toc-width: 280px;
+$toc-gap: 24px; // visual gap between text and the TOC box
+
+#markdown-toc{
+  /* remove native bullets */
+  list-style: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+
+  /* link style */
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover{ text-decoration: underline; }
+
+  /* spacing between items */
+  > li{ margin: .25em 0; line-height: 1.35;padding-left: 0rem;}
+  ul > li{ padding-left: 0rem;}
+
+  /* nested lists: no bullets + subtle indent */
+  ul{
+    list-style: none;
+    margin: .25em 0 0 0;
+    padding-left: .9rem;
+  }
+  li::before{
+	content: "";
+	position: absolute;
+	width: 0em; height: 0em;
+	background: none;
+  }
+}
+
+@media (max-width: 991.98px){
+  #markdown-toc{ display: none !important; }
+}
+
+/* Desktop: float right + framed + sticky (does not scroll away) */
+@media (min-width: 992px){
+   .page .container:has(#markdown-toc){
+    /* TOC width (280px) + visual gap (24px) */
+    padding-right: $toc-width + $toc-gap;
+
+    .entry-title{
+        margin-right: -($toc-width + $toc-gap);
+        padding-right: 0;
+    }
+  }
+
+  #markdown-toc{
+    /* layout */
+    float: right;                 /* lets content wrap on the left */
+    width: 280px;                 /* adjust as you like */
+    margin: 0 0 1rem $toc-gap;             // normal margins (gap on the left)
+    margin-right: -($toc-width + $toc-gap); // pull into the reserved padding area
+
+    /* frame */
+    padding: .75rem 1rem;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 6px;
+    background: #fff;
+
+    /* keep visible while scrolling the page */
+    position: sticky;             /* if you want fully fixed, use position: fixed; right: 0; */
+    top: 80px;                    /* match your header height */
+    max-height: calc(100vh - 100px);
+    overflow: auto;               /* internal scroll if TOC is tall */
+    z-index: 10;                  /* stay above flowing text if needed */
+  }
+
+  /* tighten nested indent a bit on desktop */
+  #markdown-toc ul{ padding-left: .75rem; }
+}

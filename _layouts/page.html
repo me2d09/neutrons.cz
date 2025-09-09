@@ -1,0 +1,19 @@
+---
+layout: main
+---
+<main class="main-content">
+				<div class="breadcrumbs">
+					<div class="container">
+						<a href="/">Domů</a>
+						<span>{{ page.title }}</span>
+					</div>
+				</div>
+
+				<div class="page">
+					<div class="container">
+						{%-unless page.hidetitle-%}
+						<h3 class="entry-title">{{ page.title }}</h3>{%-endunless-%}
+						{{ content }}
+					</div>
+				</div> <!-- .page -->
+			</main>

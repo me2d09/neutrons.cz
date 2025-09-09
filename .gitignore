@@ -1,3 +1,7 @@
-fonts/lineo-icon/demo-files/*
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+fonts/lineo-icon/demo*
 fonts/lineo-icon/Read Me.txt
-fonts/lineo-icon/demo.html

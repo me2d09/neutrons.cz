@@ -1,6 +1,8 @@
 /*
  * Footer Styles
  */
+@use "../libs/settings" as *; 
+@use "../libs/mixins" as *; 
 
 .site-footer{
 	border-top: 1px solid #ccc;

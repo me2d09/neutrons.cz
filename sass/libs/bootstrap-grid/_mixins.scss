@@ -2,6 +2,9 @@
 //
 // Used only by Bootstrap to generate the correct number of grid classes given
 // any value of `$grid-columns`.
+@use "sass:math";
+@use "../settings" as *; 
+@use "../mixins" as *; 
 
 // [converter] This is defined recursively in LESS, but Sass supports real loops
 @mixin make-grid-columns($i: 1, $list: ".col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}") {
@@ -13,8 +16,8 @@
     // Prevent columns from collapsing when empty
     min-height: 1px;
     // Inner gutter via padding
-    padding-left:  ($grid-gutter-width / 2);
-    padding-right: ($grid-gutter-width / 2);
+    padding-left:  math.div($grid-gutter-width,  2);
+    padding-right: math.div($grid-gutter-width, 2);
   }
 }
 
@@ -33,12 +36,12 @@
 @mixin calc-grid-column($index, $class, $type) {
   @if ($type == width) and ($index > 0) {
     .col-#{$class}-#{$index} {
-      width: percentage(($index / $grid-columns));
+      width: math.percentage(math.div($index, $grid-columns));
     }
   }
   @if ($type == push) and ($index > 0) {
     .col-#{$class}-push-#{$index} {
-      left: percentage(($index / $grid-columns));
+      left: math.percentage(math.div($index, $grid-columns));
     }
   }
   @if ($type == push) and ($index == 0) {
@@ -48,7 +51,7 @@
   }
   @if ($type == pull) and ($index > 0) {
     .col-#{$class}-pull-#{$index} {
-      right: percentage(($index / $grid-columns));
+      right: math.percentage(math.div($index, $grid-columns));
     }
   }
   @if ($type == pull) and ($index == 0) {
@@ -58,7 +61,7 @@
   }
   @if ($type == offset) {
     .col-#{$class}-offset-#{$index} {
-      margin-left: percentage(($index / $grid-columns));
+      margin-left: math.percentage(math.div($index, $grid-columns));
     }
   }
 }
@@ -88,15 +91,15 @@
 @mixin container-fixed($gutter: $grid-gutter-width) {
   margin-right: auto;
   margin-left: auto;
-  padding-left:  ($gutter / 2);
-  padding-right: ($gutter / 2);
+  padding-left:  math.div($gutter, 2);
+  padding-right: math.div($gutter, 2);
   @include clearfix();
 }
 
 // Creates a wrapper for a series of columns
 @mixin make-row($gutter: $grid-gutter-width) {
-  margin-left:  ($gutter / -2);
-  margin-right: ($gutter / -2);
+  margin-left:  math.div($gutter, -2);
+  margin-right: math.div($gutter,  -2);
   @include clearfix();
 }
 
@@ -106,8 +109,8 @@
   float: left;
   width: percentage(($columns / $grid-columns));
   min-height: 1px;
-  padding-left:  ($gutter / 2);
-  padding-right: ($gutter / 2);
+  padding-left:  math.div($gutter, 2);
+  padding-right: math.div($gutter, 2);
 }
 @mixin make-xs-column-offset($columns) {
   margin-left: percentage(($columns / $grid-columns));
@@ -123,8 +126,8 @@
 @mixin make-sm-column($columns, $gutter: $grid-gutter-width) {
   position: relative;
   min-height: 1px;
-  padding-left:  ($gutter / 2);
-  padding-right: ($gutter / 2);
+  padding-left:  math.div($gutter, 2);
+  padding-right: math.div($gutter, 2);
 
   @media (min-width: $screen-sm-min) {
     float: left;
@@ -151,8 +154,8 @@
 @mixin make-md-column($columns, $gutter: $grid-gutter-width) {
   position: relative;
   min-height: 1px;
-  padding-left:  ($gutter / 2);
-  padding-right: ($gutter / 2);
+  padding-left:  math.div($gutter, 2);
+  padding-right: math.div($gutter, 2);
 
   @media (min-width: $screen-md-min) {
     float: left;
@@ -179,8 +182,8 @@
 @mixin make-lg-column($columns, $gutter: $grid-gutter-width) {
   position: relative;
   min-height: 1px;
-  padding-left:  ($gutter / 2);
-  padding-right: ($gutter / 2);
+  padding-left:  math.div($gutter, 2);
+  padding-right: math.div($gutter, 2);
 
   @media (min-width: $screen-lg-min) {
     float: left;

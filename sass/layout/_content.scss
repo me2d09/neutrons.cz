@@ -1,3 +1,6 @@
+@use "../libs/settings" as *; 
+@use "../libs/mixins" as *; 
+
 .hero-slider{
 	position: relative;
 	margin-bottom: 50px;
@@ -171,7 +174,7 @@
 				margin-left: 10px;
 				width: 10px;
 				height: 7px;
-				background: url("images/arrow-blue.png");
+				background: url("/images/arrow-blue.png");
 			}
 		}
 	}
@@ -241,13 +244,53 @@
 }
 
 .page{
-	padding: 50px 0;
+	padding: 30px 0;
 	.entry-title{
+        margin-top: 0px;
 		@include em(48);
 		font-weight: 300;
 	}
 	p{
 		line-height: 2
+	}
+	:where(p, h1,h2,h3,h4,h5,h6, ul, ol){ margin: 0; }
+
+	:where(p, h1,h2,h3,h4,h5,h6,ul, ol){ margin-block: 1em; }  
+	li + li { margin-block-start: .4em; }   
+	
+	:where(ul, ol){
+		padding-left: 0;
+		list-style: none;
+		counter-reset: item;
+	}
+	:where(ol ol){
+		counter-reset: subitem;      /* start a,b,c… */
+	}
+	:where(ul, ol) > li {
+		position: relative;
+		padding-left: 1.6rem;
+	}
+	:where(ul, ol) > li + li{ margin-top: .35em; }
+	:where(ul > li)::before{
+		content: "";
+		position: absolute;
+		left: 0; top: .6em; transform: translateY(-50%);
+		width: .9em; height: .9em;
+		background: url('/images/arrow.png') no-repeat center right;
+		background-size:initial;
+	}
+	:where(ol > li)::before{
+		content: counter(item) "."; /* print 1., 2., 3., ... */
+		counter-increment: item;
+		position: absolute;
+		left: 0; top: .6em; transform: translateY(-50%);
+		width: 1.2rem;              /* reserve room for the number */
+		text-align: right;          /* align numbers nicely */
+		font-variant-numeric: tabular-nums; /* stable alignment across digits */
+	}
+	:where(ol ol > li)::before{
+		content: counter(subitem, lower-alpha) ")"; /* a), b), c) */
+		counter-increment: subitem;
 	}
 
 	.row{
@@ -447,7 +490,7 @@
 			content:" ";
 			width: 7px;
 			height: 5px;
-			background: url(images/arrow.png) no-repeat;
+			background: url(/images/arrow.png) no-repeat;
 			display: block;
 			position: absolute;
 			top:10px;

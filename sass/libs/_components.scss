@@ -1,6 +1,9 @@
 /*
  * Reusable Components Style
  */
+@use "sass:color";
+@use "settings" as *;
+@use "mixins"   as *;
 
 .button{
 	border: none;
@@ -12,7 +15,7 @@
 	transition: .3s ease;
 
 	&:hover,&:focus{
-		background: lighten($accent-color,10%);
+		background: color.adjust($accent-color, $lightness: 10%);
 	}
 }
 

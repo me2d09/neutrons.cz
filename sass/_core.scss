@@ -1,0 +1,20 @@
+// reexport API
+@forward "libs/settings";
+@forward "libs/mixins";
+
+// CSS-emitting modules
+@use "libs/normalize";
+@use "libs/global";
+@use "libs/components";
+
+// bootstrap grid – tokens API reexport
+@forward "libs/bootstrap-grid/settings";
+@forward "libs/bootstrap-grid/mixins";
+@use     "libs/bootstrap-grid/grid";
+
+// layouts
+@use "layout/header";
+@use "layout/content";
+@use "layout/footer";
+
+@use "pages/toc";

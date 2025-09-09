@@ -1,8 +1,10 @@
 /*
  * Global Styles
  */
+@use "settings" as *;
 
-$browser-context: 16; // Default
+
+$browser-context: 18; // Default
 
 body {
 	color       : $body-color;
@@ -55,7 +57,7 @@ form{
 		resize: vertical;
 	}
 	input[type="submit"],button, input[type="reset"]{
-		@extend .button;
+		@extend .button  !optional;
 	}
 
 }

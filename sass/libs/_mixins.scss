@@ -1,3 +1,7 @@
+@use "sass:math";
+@use "settings" as *;
+@use "global"   as *;
+
 @mixin clearfix {
     *zoom:1;
     
@@ -33,10 +37,10 @@
 // Usage: @include em(16)
 @mixin em($pixels, $context: $browser-context) {
 	font-size: #{$pixels}px;
-	font-size: #{$pixels/$context}em;
+	font-size: #{math.div($pixels, $context)}em;
 }
 
 @mixin rem($pixels, $context: $browser-context) {
 	font-size: #{$pixels}px;
-	font-size: #{$pixels/$context}rem;
+	font-size: #{math.div($pixels, $context)}rem;
 }
