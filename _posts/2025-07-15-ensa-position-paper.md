@@ -5,7 +5,7 @@ abstract: "Evropská neutronová rozptylová asociace (ENSA) publikovala svůj p
 image: "/images/2025/ensa-paper.jpg"
 ---
 
-Česká neutronová asociace s potěšením oznamuje vydání nového strategického dokumentu **ENSA Position Paper 2025**, který poskytuje přehled o současném stavu evropské neutronové vědy a její budoucnosti.
+Česká neutronová asociace s potěšením oznamuje vydání nového strategického dokumentu **[ENSA Position Paper 2025](https://ensa.ife.no/wp-content/uploads/2025/07/ENSA-position-paper_2025_print.pdf)**, který poskytuje přehled o současném stavu evropské neutronové vědy a její budoucnosti.
 
 Dokument upozorňuje na klesající dostupnost experimentálních dnů a odborníků v Evropě a vyzývá k vytvoření **spolehlivé a udržitelné sítě neutronových zdrojů**, podpoře rychlého spuštění ESS a modernizaci národních zařízení. Důraz je kladen také na vzdělávání mladých vědců a rozvoj nových technologií, jako jsou Hi-CANS.
 
@@ -15,4 +15,4 @@ Dokument upozorňuje na klesající dostupnost experimentálních dnů a odborn�
 - Inspirace pro národní vědeckou politiku a strategické plánování  
 - Zapojení do evropských iniciativ a projektů  
 
-Česká neutronová asociace plně podporuje závěry ENSA a je připravena aktivně se podílet na jejich naplňování, aby byla zajištěna silná pozice české vědy v evropském i globálním kontextu.
+Česká neutronová asociace plně podporuje závěry [ENSA](https://ensa.ife.no/) a je připravena aktivně se podílet na jejich naplňování, aby byla zajištěna silná pozice české vědy v evropském i globálním kontextu.

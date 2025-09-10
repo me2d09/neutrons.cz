@@ -196,6 +196,3 @@ Hlas kolektivního člena vykonává jeho zástupce, který může tento hlas de
 
 1.	Stanovy nabývají účinnosti dnem jejich schválení Zakladateli.
 2.	Do zvolení první Komise přebírají veškerá práva a povinnosti Komise a Schůze delegátů Zakladatelé.
-
-V Praze dne 13. 5. 2025  
-Zakladatelé (abecedně): Petr Čermák, Milan Klicpera, Pavel Strunz, Jan Šaroun, 

@@ -39,7 +39,7 @@ layout: main
       <div class="col-md-4">
         <div class="news">
           <figure><img src="{{ p.image | relative_url }}" alt=""></figure>
-          <div class="date"><img src="{{ '/images/icon-calendar.png' | relative_url }}" alt="">{{ p.date }}</div>
+          <div class="date"><img src="{{ '/images/icon-calendar.png' | relative_url }}" alt="">{{ p.date | date: "%-d. %-m. %Y"}}</div>
           <h2 class="entry-title"><a href="{{ p.url }}">{{ p.title }}</a></h2>
         </div>
       </div>
@@ -47,7 +47,7 @@ layout: main
     </div> <!-- .row -->
   </div> <!-- .container -->
 </div> <!-- .offer-section -->
-
+{% comment %}
 <div class="fullwidth-block">
   <div class="container">
     <h2 class="section-title">Naši kolektivní členové</h2>
@@ -60,3 +60,5 @@ layout: main
     </div> <!-- .partners -->
   </div> <!-- .container -->
 </div> <!-- .fullwidth-block -->
+{% endcomment %}
+

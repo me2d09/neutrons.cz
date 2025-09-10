@@ -7,12 +7,12 @@ features:
   - title: Komunita uživatelů
     url: /komunita/
     icon_class: fa fa-users
-    excerpt: Propojujeme české vědce, studenty i průmysl pracující s neutrony.
+    excerpt: Propojujeme české vědce, studenty i instituce pracující s neutrony.
 
   - title: Podpora výzkumu
     url: /podpora-vyzkumu/
     icon_class: fa fa-flask
-    excerpt: Sdílíme know-how, kontakty a přístup k experimentálním kapacitám.
+    excerpt: Sdílíme know-how, kontakty a informace o experimentálních kapacitách.
 
   - title: Otevřená komunikace
     url: /komunikace/

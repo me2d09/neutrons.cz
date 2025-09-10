@@ -156,11 +156,11 @@
 		}
 	}
 	.date{
-		@include em(14);
+		@include em(18);
 		img{margin-right: 10px}
 	}
 	.entry-title{
-		@include em(16);
+		@include em(18);
 		font-weight: 300;
 		a{
 			color: $body-color;
