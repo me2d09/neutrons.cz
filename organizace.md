@@ -16,8 +16,8 @@ Přesný popis organizačního fungování Asociace najdete ve [stanovách CNA](
 
 ## Členové Komise:
 
-- místopředseda: Milan Klicpera, Matematicko-fyzikální fakulta Univerzity Karlovy (místopředseda asociace)
 - předseda: Jan Šaroun, Ústav jaderné fyziky Akademie věd České Republiky
+- místopředseda: Milan Klicpera, Matematicko-fyzikální fakulta Univerzity Karlovy
 - Petr Čermák, Matematicko-fyzikální fakulta Univerzity Karlovy
 - Pavel Strunz, Ústav jaderné fyziky Akademie věd České Republiky
 - Dominika Zákutná, Přírodovědecká fakulta Univerzity Karlovy
