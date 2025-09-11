@@ -24,6 +24,7 @@ pro vědce, doktorandy, studenty a odborníky.
  - **Členský poplatek** – členský poplatek pro individuální členy je 0 Kč.
  - **Žádné povinnosti navíc** – pokud vás nebaví výroční schůze, nemusíte tam chodit, stačí pověřit (delegovat) kolegu nebo někoho, komu věříte.
 
+
 ## Kolektivní členství
 
 pro instituce, univerzity, výzkumná centra či laboratoře.
@@ -41,4 +42,4 @@ pro instituce, univerzity, výzkumná centra či laboratoře.
 - **Volby a rozhodování** – váš zástupce má hlas na Schůzi delegátů. O věcech týkajících se kolektivního členství rozhodují kolektivní členové.  
 
 
-👉 Stát se členem je jednoduché – vyplňte přihlášku ZDE.
+👉 Stát se členem je jednoduché – vyplňte přihlášku [ZDE](https://forms.office.com/e/rBQEV02sXr).
