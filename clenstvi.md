@@ -24,6 +24,7 @@ pro vědce, doktorandy, studenty a odborníky.
  - **Členský poplatek** – členský poplatek pro individuální členy je 0 Kč.
  - **Žádné povinnosti navíc** – pokud vás nebaví výroční schůze, nemusíte tam chodit, stačí pověřit (delegovat) kolegu nebo někoho, komu věříte.
 
+[Přihláška kolektivního člena](https://forms.office.com/e/rBQEV02sXr){: .button } 
 
 ## Kolektivní členství
 
@@ -41,5 +42,6 @@ pro instituce, univerzity, výzkumná centra či laboratoře.
 - **Členský příspěvek** – kolektivní členové hradí roční příspěvek ve výši 10 000 Kč.  
 - **Volby a rozhodování** – váš zástupce má hlas na Schůzi delegátů. O věcech týkajících se kolektivního členství rozhodují kolektivní členové.  
 
+Pokud má vaše instituce zájem o kolektivní členství, [kontaktujte nás](mailto:info@neutrons.cz).
 
-👉 Stát se členem je jednoduché – vyplňte přihlášku [ZDE](https://forms.office.com/e/rBQEV02sXr).
+### 👉 Stát se členem je jednoduché – vyplňte přihlášku [ZDE](https://forms.office.com/e/rBQEV02sXr).
