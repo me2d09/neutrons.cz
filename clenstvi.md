@@ -5,6 +5,8 @@ permalink: /clenstvi
 ---
 Cílem České neutronové asociace, z. s. (CNA) je zastupovat zájmy všech uživatelů neutronů v ČR – vědců a studentů. Tyto zájmy hájí **Komise** asociace, do které si členové každé tři roky volí své zástupce podle [stanov](/stanovy). Vznik **CNA** je inspirován obdobnými asociacemi v Evropě. 
 
+### 👉 Stát se členem je jednoduché – vyplňte přihlášku [ZDE](https://forms.office.com/e/rBQEV02sXr).
+
 Máme dva druhy členů: **Individuální** a **Kolektivní** (a **Čestné členství** – pro osobnosti, které významně přispěly k rozvoji neutronové vědy).
 
 ## Individální členství
@@ -24,7 +26,7 @@ pro vědce, doktorandy, studenty a odborníky.
  - **Členský poplatek** – členský poplatek pro individuální členy je 0 Kč.
  - **Žádné povinnosti navíc** – pokud vás nebaví výroční schůze, nemusíte tam chodit, stačí pověřit (delegovat) kolegu nebo někoho, komu věříte.
 
-[Přihláška kolektivního člena](https://forms.office.com/e/rBQEV02sXr){: .button } 
+[Přihláška individuálního člena](https://forms.office.com/e/rBQEV02sXr){: .button } 
 
 ## Kolektivní členství
 
@@ -42,6 +44,6 @@ pro instituce, univerzity, výzkumná centra či laboratoře.
 - **Členský příspěvek** – kolektivní členové hradí roční příspěvek ve výši 10 000 Kč.  
 - **Volby a rozhodování** – váš zástupce má hlas na Schůzi delegátů. O věcech týkajících se kolektivního členství rozhodují kolektivní členové.  
 
-Pokud má vaše instituce zájem o kolektivní členství, [kontaktujte nás](mailto:info@neutrons.cz).
+Pokud má vaše instituce zájem o kolektivní členství, kontaktujte nás:.
 
-### 👉 Stát se členem je jednoduché – vyplňte přihlášku [ZDE](https://forms.office.com/e/rBQEV02sXr).
+[Kontakt pro zájemce o kolektivní členství](mailto:info@neutrons.cz?subject=CNA Kolektivní členství&body=Naše instituce má zájem o kolektivní členství, prosím kontaktujte nás.){: .button } 
