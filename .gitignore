@@ -6,3 +6,7 @@ vendor
 fonts/lineo-icon/demo*
 fonts/lineo-icon/Read Me.txt
 images/*/*.psd
+Gemfile
+Gemfile.lock
+
+
