@@ -25,7 +25,7 @@ Experimenty založené na metodách neutronového rozptylu a neutronového zobra
 | --- |
 |**Laboratoř neutronové fyziky CANAM** (Ústav jaderné fyziky AV ČR) u **reaktoru LVR-15** (Centrum výzkumu Řež s.r.o.)|
 |ÚJF AV ČR provozuje u 10 MW [reaktoru LVR-15](https://www.cvrez.cz/cs/vyzkum-a-sluzby/provoz-reaktoru/vyzkumny-reaktor-lvr-15-12065) čtyři neutronové difraktometry určené zejména pro materiálový výzkum a jeden svazek vyhrazený pro analytické metody (hloubkové profilování a gama spektroskopie). V rámci infrastruktury CANAM jsou uživatelům dále k dispozici experimenty na zařízení pro neutronovou aktivační analýzu (NAA). Žádosti o měřicí čas lze podávat kdykoli prostřednictvím uživatelského portálu.| 
-| _Informace o zařízení_:<br><https://www.ujf.cas.cz/cs/oddeleni/oddeleni-neutronovych-a-iontovych-metod/npl/><br><https://www.ujf.cas.cz/en/departments/department-of-neutron-and-ion-methods/npl/> 
+| _Informace o zařízení_:<br><https://www.ujf.cas.cz/cs/oddeleni/oddeleni-neutronovych-a-iontovych-metod/npl/><br><https://www.ujf.cas.cz/en/departments/department-of-neutron-and-ion-methods/npl/> |
 | _Informace pro uživatele_:<br><https://www.ujf.cas.cz/en/research-development/large-research-infrastructures-and-centres/canam/open-access/> |
 
 ### Jinde v Evropě
@@ -70,10 +70,9 @@ Experimenty založené na metodách neutronového rozptylu a neutronového zobra
 
 ### Ve výstavbě
 
-
 | | 
 | --- |
 | **Evropský spalační zdroj (ESS ERIC),** Lund, Sweden |
-| ESS je nejvýkonnější pulzní neutronový zdroj, který se aktuálně staví v Lundu ve Švédsku. ve švédském Lundu. Česká Republika je jednou ze zakládajících členských zemí ESS ERIC a podílí se na jeho výstavbě a budoucím využití prostřednictvím domácí výzkumné infrastruktury ESS Scandinavia-CZ. První fáze výstavby počítá s výkonem 2 MW (průměr za periodu) a 15 instrumenty pro široké spektrum metod neutronového rozptylu a zobrazování. Projekt počítá s budoucím rozšířením až na 22 instrumentů a výkon 5 MW). Spuštění uživatelského programu je plánováno v průběhu roku 2028. |
+| ESS je nejvýkonnější pulzní neutronový zdroj, který se aktuálně staví v Lundu ve Švédsku. Česká Republika je jednou ze zakládajících členských zemí ESS ERIC a podílí se na jeho výstavbě a budoucím využití prostřednictvím domácí výzkumné infrastruktury ESS Scandinavia-CZ. První fáze výstavby počítá s výkonem 2 MW (průměr za periodu) a 15 instrumenty pro široké spektrum metod neutronového rozptylu a zobrazování. Projekt počítá s budoucím rozšířením až na 22 instrumentů a výkon 5 MW). Spuštění uživatelského programu je plánováno v průběhu roku 2028. |
 | _Informace o zařízení_:<br><https://ess.eu> |
 | _Informace pro uživatele_:<br><https://ess.eu/science-support-systems/forusers> |
