@@ -35,8 +35,8 @@ layout: main
     <h2 class="section-title">Novinky</h2>
     <div class="row news-list">
       {% assign past_posts = site.posts | where_exp: "post", "post.date < site.time" %}
-      {% for p in past_posts limit: 4 %}
-      <div class="col-md-4">
+      {% for p in past_posts limit: 6 %}
+      <div class="col-md-3">
         <div class="news">
           <figure><img src="{{ p.image | relative_url }}" alt=""></figure>
           <div class="date"><img src="{{ '/images/icon-calendar.png' | relative_url }}" alt="">{{ p.date | date: "%-d. %-m. %Y"}}</div>
@@ -53,10 +53,11 @@ layout: main
     <h2 class="section-title">Naši kolektivní členové</h2>
     <div class="partners">
       <a href="https://www.mff.cuni.cz/"><img src="{{ '/images/logo_mff_en.png' | relative_url }}" width="400px" alt=""></a>
-      <a href="https://www.vscht.cz"><img src="{{ '/images/logo_vscht_en.png' | relative_url }}" width="400px" alt=""></a>
+      <a href="https://www.vscht.cz"><img src="{{ '/images/logo_vscht_en.png' | relative_url }}" width="350px" alt=""></a>
     <!--  <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>
       <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>
-      <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>-->
+      <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>
+	 -->
     </div> <!-- .partners -->
   </div> <!-- .container -->
 </div> <!-- .fullwidth-block -->
