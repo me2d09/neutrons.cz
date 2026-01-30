@@ -5,6 +5,11 @@ permalink: /infrastructure
 ---
 ## Komunita
 
+### Neutron scattering mailing list
+
+je široce využíván členy komunity zabývajícími se rozptylem neutronů po celém světě. Poskytuje aktuální oznámení od neutronových zdrojů i jejich uživatelů, jako jsou výzvy k podávání návrhů na experimenty, konference, školy, semináře nebo nabídky zaměstnání v oblasti neutronového rozptylu. K přihlášení můžete využiít odkaz 
+<https://lists.neutronsources.org/mailman/listinfo/neutron>.
+
 ### European Neutron Scattering Association (ENSA)
 
 je asociace delegátů zastupujících organizace uživatelů neutronů v Evropě. ENSA se mimo jiné podílí na pořádání mezinárodních konferencí ECNS, udílení cen za mimořádné příspěvky k rozvoji vědy s využitím neutronů, přípravě publikací monitorující zájmy a potřeby vědecké komunity v oboru s dopadem na další rozvoj infrastruktur pro výzkum s neutrony v Evropě.  
@@ -19,6 +24,7 @@ je asociace velkých výzkumných infrastruktur poskytujících neutronové svaz
 
 Experimenty založené na metodách neutronového rozptylu a neutronového zobrazování vyžadují přístup k velkým výzkumným infrastrukturám, které disponují zdroji neutronových svazků a specializovaným instrumentálním vybavením. Řada těchto zařízení poskytuje svou kapacitu externím uživatelům prostřednictvím programu otevřeného přístupu. V případě veřejně publikovaného výzkumu je měřicí čas přidělován bezplatně na základě výběrového řízení, které hodnotí vědeckou kvalitu a technickou proveditelnost navrhovaných experimentů. Dále je uveden seznam neutronových zdrojů s velkým a středním výkonem, které poskytují měřící čas externím uživatelům v rámci programu otevřeného přístupu.
 
+<p>&nbsp;</p>
 ### V České republice
 
 | | 
@@ -28,6 +34,7 @@ Experimenty založené na metodách neutronového rozptylu a neutronového zobra
 | _Informace o zařízení_:<br><https://www.ujf.cas.cz/cs/oddeleni/oddeleni-neutronovych-a-iontovych-metod/npl/><br><https://www.ujf.cas.cz/en/departments/department-of-neutron-and-ion-methods/npl/> |
 | _Informace pro uživatele_:<br><https://www.ujf.cas.cz/en/research-development/large-research-infrastructures-and-centres/canam/open-access/> |
 
+<p>&nbsp;</p>
 ### Jinde v Evropě
 
 | | 
@@ -68,6 +75,7 @@ Experimenty založené na metodách neutronového rozptylu a neutronového zobra
 | _Informace o zařízení_:<br>[https://bnc.hu](https://bnc.hu/) |
 | _Informace pro uživatele_:<br><https://bnc.hu/user-office/> |
 
+<p>&nbsp;</p>
 ### Ve výstavbě
 
 | | 
