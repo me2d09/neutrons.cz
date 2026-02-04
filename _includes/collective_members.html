@@ -1,0 +1,11 @@
+<div class="fullwidth-block">
+  <div class="container">
+    <h2 class="section-title">Naši kolektivní členové</h2>
+    <div class="partners">
+      {%- assign visible_members = site.members | where_exp: "member", "member.visible == true or member.visible == 'true'" | sort: "order" -%}
+      {%- for member in visible_members -%}
+        <a href="{{ member.url }}"><img src="{{ member.logo | relative_url }}" height="{{ member.height }}px" alt="{{ member.name }}"></a>
+      {%- endfor -%}
+    </div> <!-- .partners -->
+  </div> <!-- .container -->
+</div> <!-- .fullwidth-block -->
