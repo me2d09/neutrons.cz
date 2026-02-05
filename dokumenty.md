@@ -36,4 +36,4 @@ Ke stažení zde jsou dostupné:
 
 ## Zápisy ze zasedání Komise
 
-Zápisy ze zasedání komise jsou k dispozici pouze členům asociace
+Zápisy ze zasedání komise jsou k dispozici pouze členům asociace v [členské sekci](https://members.neutrons.cz/).

@@ -6,11 +6,11 @@ title: Aktuality
     <div class="row news-list">
       {% assign past_posts = site.posts | where_exp: "post", "post.date < site.time" %}
       {% for p in past_posts limit: 21 %}
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="news">
           <figure><img src="{{ p.image | relative_url }}" alt=""></figure>
           <div class="date"><img src="{{ '/images/icon-calendar.png' | relative_url }}" alt="">{{ p.date | date: "%-d. %-m. %Y"}}</div>
-          <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
+          <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
         </div>
       </div>
       {% endfor %}

@@ -35,30 +35,27 @@ layout: main
     <h2 class="section-title">Novinky</h2>
     <div class="row news-list">
       {% assign past_posts = site.posts | where_exp: "post", "post.date < site.time" %}
-      {% for p in past_posts limit: 3 %}
-      <div class="col-md-4">
+      {% for p in past_posts limit: 6 %}
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="news">
           <figure><img src="{{ p.image | relative_url }}" alt=""></figure>
           <div class="date"><img src="{{ '/images/icon-calendar.png' | relative_url }}" alt="">{{ p.date | date: "%-d. %-m. %Y"}}</div>
-          <h2 class="entry-title"><a href="{{ p.url }}">{{ p.title }}</a></h2>
+          <h2 class="entry-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
         </div>
       </div>
+      {% assign index_mod_2 = forloop.index | modulo: 2 %}
+      {% if index_mod_2 == 0 %}
+        <div class="visible-sm-block" style="clear: both;"></div>
+      {% endif %}
+      {% assign index_mod_4 = forloop.index | modulo: 4 %}
+      {% if index_mod_4 == 0 %}
+        <div class="visible-md-block visible-lg-block" style="clear: both;"></div>
+      {% endif %}
       {% endfor %}
     </div> <!-- .row -->
   </div> <!-- .container -->
 </div> <!-- .offer-section -->
-{% comment %}
-<div class="fullwidth-block">
-  <div class="container">
-    <h2 class="section-title">Naši kolektivní členové</h2>
-    <div class="partners">
-      <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>
-      <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>
-      <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>
-      <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>
-      <a href="#"><img src="{{ '/dummy/logo.png' | relative_url }}" alt=""></a>
-    </div> <!-- .partners -->
-  </div> <!-- .container -->
-</div> <!-- .fullwidth-block -->
-{% endcomment %}
+
+{% include collective_members.html %}
+
 
