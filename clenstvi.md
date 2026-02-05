@@ -5,7 +5,7 @@ permalink: /clenstvi
 ---
 Česká neutronové asociace, z. s. (CNA) zastupuje zájmy všech uživatelů neutronů v České republice – vědců a studentů. Tyto zájmy hájí **Komise** Asociace, volená každé tři roky podle [stanov](/stanovy). Vznik **CNA** je inspirován obdobnými asociacemi v Evropě. 
 
-### 👉 Stát se členem je jednoduché – vyplňte přihlášku [ZDE](https://forms.office.com/e/rBQEV02sXr).
+### 👉 Stát se členem je jednoduché – přihlaste se přes svou intituci [do členské sekce](https://members.neutrons.cz) a vyplňte přihlášku.
 
 Členství je možné ve dvou formách:  **Individuální** a **Kolektivní** (a **Čestné členství** – udělované osobnostem, které významně přispěly k rozvoji neutronové vědy).
 
@@ -29,7 +29,7 @@ učeno pro vědce, doktorandy, studenty a odborníky.
 - **Členský poplatek** – 0 Kč / rok.
 
 
-[Přihláška individuálního člena](https://forms.office.com/e/rBQEV02sXr){: .button } 
+[Přihláška individuálního člena](https://members.neutrons.cz){: .button }  (Je třeba se přihlásit pomocí své instituce. O schválení přihlášky budete informováni.)
 
 ## Kolektivní členství
 
