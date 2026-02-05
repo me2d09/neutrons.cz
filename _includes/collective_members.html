@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="section-title">Naši kolektivní členové</h2>
     <div class="partners members-grid">
-      {%- assign visible_members = site.members | where_exp: "member", "member.visible == true or member.visible == 'true'" | sort: "order" -%}
+      {%- assign visible_members = site.members | where: "visible", true | sort: "order" -%}
       {%- assign max_height = visible_members | map: "height" | sort | last -%}
       {%- for member in visible_members -%}
         <div class="member-item" style="min-height: {{ max_height }}px;">
