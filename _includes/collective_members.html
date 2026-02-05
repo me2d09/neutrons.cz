@@ -1,0 +1,14 @@
+<div class="fullwidth-block">
+  <div class="container">
+    <h2 class="section-title">Naši kolektivní členové</h2>
+    <div class="partners members-grid">
+      {%- assign visible_members = site.members | where_exp: "member", "member.visible == true or member.visible == 'true'" | sort: "order" -%}
+      {%- assign max_height = visible_members | map: "height" | sort | last -%}
+      {%- for member in visible_members -%}
+        <div class="member-item" style="min-height: {{ max_height }}px;">
+          <a href="{{ member.url }}"><img src="{{ member.logo | relative_url }}" alt="{{ member.name }}" style="max-width: 100%; height: auto; max-height: {{ member.height }}px;"></a>
+        </div>
+      {%- endfor -%}
+    </div> <!-- .partners -->
+  </div> <!-- .container -->
+</div> <!-- .fullwidth-block -->

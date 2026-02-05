@@ -41,6 +41,8 @@ collections:
   posts:
     output: true
     permalink: /aktuality/:year/:title/
+  members:
+    output: false
     
 defaults:
   - scope:
@@ -68,3 +70,5 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - sass/style.css

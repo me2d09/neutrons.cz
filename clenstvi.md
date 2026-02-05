@@ -3,47 +3,48 @@ layout: page
 title: Staňte se členem
 permalink: /clenstvi
 ---
-Cílem České neutronové asociace, z. s. (CNA) je zastupovat zájmy všech uživatelů neutronů v ČR – vědců a studentů. Tyto zájmy hájí **Komise** asociace, do které si členové každé tři roky volí své zástupce podle [stanov](/stanovy). Vznik **CNA** je inspirován obdobnými asociacemi v Evropě. 
+Česká neutronové asociace, z. s. (CNA) zastupuje zájmy všech uživatelů neutronů v České republice – vědců a studentů. Tyto zájmy hájí **Komise** Asociace, volená každé tři roky podle [stanov](/stanovy). Vznik **CNA** je inspirován obdobnými asociacemi v Evropě. 
 
-### 👉 Stát se členem je jednoduché – vyplňte přihlášku [ZDE](https://forms.office.com/e/rBQEV02sXr).
+### 👉 Stát se členem je jednoduché – přihlaste se přes svou intituci [do členské sekce](https://members.neutrons.cz) a vyplňte přihlášku.
 
-Máme dva druhy členů: **Individuální** a **Kolektivní** (a **Čestné členství** – pro osobnosti, které významně přispěly k rozvoji neutronové vědy).
+Členství je možné ve dvou formách:  **Individuální** a **Kolektivní** (a **Čestné členství** – udělované osobnostem, které významně přispěly k rozvoji neutronové vědy).
 
 ## Individální členství
 
-pro vědce, doktorandy, studenty a odborníky.
+učeno pro vědce, doktorandy, studenty a odborníky.
 
 ### Proč se stát členem?
 
- - **Budu reprezentován** – můžu volit do komise, pomůžu CNA lépe hájit zájmy vědců a zohlednit i potřeby svého oboru.
- - **Informovanost** - průběžný přístup k informacím o vývoji neutronové infrastruktury a výzkumných možnostech v České republice i v zahraničí.
- - **Otevřené všem** – členem by se měl stát každý, kdo s neutrony pracuje, nebo má o neutronový výzkum zájem.
- - **Možnost ovlivnit chod asociace** - každý člen může být volen do Komise a ovlivnit směřování asociace do budoucna. 
+ - **Reprezentace zájmů** – možnost volit Komisi a kandidovat na člena Komise
+ - **Podpora oboru** – aktivním členstvím pomůžete Komisi lépe reprezentovat zájmy a potřeby vědecké komunity v oblasti neutronových metod a zohlednit přitom specifika Vašeho oboru.
+ - **Informovanost** - pravidelný přístup k informacím o vývoji neutronové infrastruktury a výzkumných možnostech v České republice i v zahraničí.
+ - **Otevřené všem** – členem se může stát každý, kdo s neutrony pracuje, nebo má o neutronový výzkum zájem.
+ - **Možnost ovlivnit směřování Asociace** -  aktivní účastí v Komisi či prostřednictvím delegátů
+
   
 ### Co členství obnáší?
 
- - **Volby do komise** – jednou za 3 roky můžete ovlivnit, kdo bude zastupovat vaše zájmy.
- - **Členský poplatek** – členský poplatek pro individuální členy je 0 Kč.
- - **Žádné povinnosti navíc** – pokud vás nebaví výroční schůze, nemusíte tam chodit, stačí pověřit (delegovat) kolegu nebo někoho, komu věříte.
+- **Volby Komise** – každé tři roky možnost volit nebo být volen.
+- **Bez dalších povinností** – pokud vás nebaví výroční schůze, nemusíte tam chodit, stačí pověřit (delegovat) kolegu nebo někoho, komu věříte.
+- **Členský poplatek** – 0 Kč / rok.
 
-[Přihláška individuálního člena](https://forms.office.com/e/rBQEV02sXr){: .button } 
+
+[Přihláška individuálního člena](https://members.neutrons.cz){: .button }  (Je třeba se přihlásit pomocí své instituce. O schválení přihlášky budete informováni.)
 
 ## Kolektivní členství
 
-pro instituce, univerzity, výzkumná centra či laboratoře.
+určeno pro instituce, univerzity, výzkumná centra či laboratoře.
 
 ### Proč se stát kolektivním členem?  
 
-- **Prestiž a viditelnost** – členství posiluje profil vaší instituce v národní i mezinárodní neutronové komunitě. 
-- **Podpora oboru** – zapojením se do CNA přispíváte k rozvoji neutronového výzkumu v ČR a k podpoře mladých vědců.
-- **Reprezentace** – vaše instituce získá možnost nominovat vaše pracovníky na individuální členy.  
-- **Informace** – možnost účastnit se všech zasedání Komise.  
+- **Prestiž a viditelnost** – posílení profilu instituce v rámci české i mezinárodní neutronové komunity.
+- **Podpora oboru** – zaktivním zapojením do Asociace přispějete k rozvoji výzkumu s neutrony v ČR a k podpoře mladých vědců.
+- **Reprezentace** – možnost nominovat své pracovníky a studenty na individuální členství.
+- **Informace** – možnost účasti na všech jednáních Komise a přímý přístup k aktuálním informacím. 
 
 ### Co členství obnáší?  
 
-- **Členský příspěvek** – kolektivní členové hradí roční příspěvek ve výši 10 000 Kč.  
-- **Volby a rozhodování** – váš zástupce má hlas na Schůzi delegátů. O věcech týkajících se kolektivního členství rozhodují kolektivní členové.  
-
-Pokud má vaše instituce zájem o kolektivní členství, kontaktujte nás:.
-
+- **Volby a rozhodování** – zástupce kolektivního člena se stává delegátem a má hlas na Schůzi delegátů. Kolektivní členové mají rozhodující hlas ve věcech týkajících se kolektivního členství.
+- **Členský příspěvek** – 10 000 Kč / rok.
+ 
 [Kontakt pro zájemce o kolektivní členství](mailto:info@neutrons.cz?subject=CNA Kolektivní členství&body=Naše instituce má zájem o kolektivní členství, prosím kontaktujte nás.){: .button } 
