@@ -43,7 +43,9 @@ jobs:
       - name: Compile Sass with Dart Sass
         run: |
           mkdir -p _site/sass
-          sass sass/style.scss _site/sass/style.css --no-source-map
+          tail -n +4 sass/style.scss > _tmp_style.scss
+          sass _tmp_style.scss _site/sass/style.css --load-path=sass --no-source-map
+          rm _tmp_style.scss
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
