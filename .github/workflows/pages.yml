@@ -38,7 +38,14 @@ jobs:
         run: npm install -g sass
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build --destination _site
+        env:
+          JEKYLL_BASEURL: ${{ vars.JEKYLL_BASEURL }}
+        run: |
+          if [ -n "$JEKYLL_BASEURL" ]; then
+            bundle exec jekyll build --destination _site --baseurl "$JEKYLL_BASEURL"
+          else
+            bundle exec jekyll build --destination _site
+          fi
 
       - name: Compile Sass with Dart Sass
         run: |
