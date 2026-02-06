@@ -17,4 +17,4 @@ Asociace usiluje o posílení pozice neutronového výzkumu v České republice,
 
 ## Organizační struktura
 
-Vnitřní fungování Asociace je zakotveno ve [stanovách asociace](/stanovy) a stručně popsáno na stránce [Organizační struktura](/organizace).
+Vnitřní fungování Asociace je zakotveno ve [stanovách asociace]({{ "/stanovy" | relative_url }}) a stručně popsáno na stránce [Organizační struktura]({% link organizace.md %}).
