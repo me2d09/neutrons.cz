@@ -7,7 +7,7 @@ Ke stažení zde jsou dostupné:
 
 ### Stanovy spolku
   - [webová verze](/stanovy)
-  - [verze ve formátu PDF](/files/CNA_stanovy_v2.pdf)
+  - [verze ve formátu PDF](/files/CNA_stanovy_v3.pdf)
 
 ## Výroční zprávy
 

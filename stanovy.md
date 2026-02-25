@@ -6,7 +6,7 @@ title: Stanovy spolku Česká neutronová asociace, z. s.
 * Obsah
 {:toc}
 
-Toto je aktální verze stanov optimalizovaná pro webové stránky. Schválené stanovy jsou k dispozici [ke stažení se formátu pdf](/files/CNA_stanovy_v2.pdf).
+Toto je aktální verze stanov optimalizovaná pro webové stránky. Schválené stanovy jsou k dispozici [ke stažení se formátu pdf](/files/CNA_stanovy_v3.pdf).
 
 ## I.	Účel a činnost
 
@@ -53,7 +53,7 @@ Asociace působí na celém území České republiky. Sídlem Asociace je obec 
     1.	schválení přihlášky doručené na adresu sídla Asociace nebo na elektronickou adresu Asociace;
     1.	úhrady členského příspěvku.
 3.	O přijetí za člena rozhoduje Komise.
-4.	Individuální členství může vzniknou i na základě nominace. Nominovat individuálního člena je oprávněn kterýkoli Kolektivní člen z řad svých zaměstnanců, případně studentů. Nominaci je Kolektivní člen povinen zaslat Komisi spolu s kontaktními údaji nominovaného. Komise nominovaného vyzve ke sdělení, zda nominaci přijímá či nikoli, a zároveň jej vyzve k úhradě členského příspěvku. Nominovaný se stává členem Asociace přijetím nominace a úhradou členského příspěvku.
+4.	Individuální členství může vzniknout i na základě nominace. Nominovat individuálního člena je oprávněn kterýkoli kolektivní člen z řad svých zaměstnanců, případně studentů. Nominaci je kolektivní člen povinen zaslat Komisi spolu s kontaktními údaji nominovaného. Komise nominovaného vyzve ke sdělení, zda nominaci přijímá či nikoli, a zároveň jej vyzve k úhradě členského příspěvku. Nominovaný se stává členem Asociace přijetím nominace a úhradou členského příspěvku.
 5.	O udělení čestného členství rozhoduje Komise jednomyslně, a to na základě návrhu člena Komise. Alternativně o udělení čestného členství rozhoduje Schůze delegátů, a to nadpoloviční většinou hlasů členů Asociace zastoupených na Schůzi delegátů.
 
 ### § 7	Individuální členství
@@ -80,21 +80,23 @@ Asociace působí na celém území České republiky. Sídlem Asociace je obec 
 
 ### § 8	Kolektivní členství
 
-1.	Za kolektivního člena Asociace může být přijata právnická osoba nebo jasně vymezená složka právnické osoby.
-2.	Kolektivní člen určí fyzickou osobu, s níž je v pracovněprávním či obdobném vztahu, která jej bude v Asociaci zastupovat a vykonávat práva kolektivního člena. Tuto fyzickou osobu má kolektivní člen právo odvolat. 
+1.	Za kolektivního člena Asociace může být přijata právnická osoba nebo jasně vymezená složka právnické osoby. 
+2.	Kolektivní člen určí fyzickou osobu (dále jen „zástupce“), s níž je v pracovněprávním či obdobném vztahu, která jej bude v Asociaci zastupovat a vykonávat práva kolektivního člena. Kolektivní člen má právo zástupce odvolat. Zástupce zastupuje kolektivního člena na Schůzi delegátů; tento hlas může delegovat na delegáta určeného podle § 8 odst. 4 písm. d).
 3.	O přijetí nebo ukončení kolektivního členství rozhoduje Komise. 
 4.	Každý kolektivní člen má právo:
     1. volit do všech orgánů Asociace;
     2. získávat odborné informace ze zdrojů Asociace.
+    3. účastnit se jednání Komise prostřednictvím svého zástupce; podrobnosti účasti upravuje § 12 odst. 12 a 13;
+    4. účastnit se zasedání Schůze delegátů prostřednictvím svého zástupce, který za sebe může nominovat delegáta.
 5.	Povinnosti kolektivního člena:
-    1. nominovat za sebe delegáta do Schůze delegátů;
-    1. podílet se podle svých možností a schopností na naplňování účelu Asociace; 
-    1. dodržovat stanovy a ostatní vnitřní předpisy Asociace;
-    1. plnit usnesení a jiná rozhodnutí orgánů Asociace;
-    1. šetřit, chránit a zvelebovat majetek, který slouží Asociaci k zabezpečení její činnosti, jakož i usilovat o dobré jméno Asociace;
-    1. řádně a včas platit členské příspěvky určené orgány Asociace.
+    1. sdělit Asociaci bez zbytečného prodlení údaje o zástupci podle § 8 odst. 2 a jejich změny;
+    2. podílet se podle svých možností a schopností na naplňování účelu Asociace; 
+    3. dodržovat stanovy a ostatní vnitřní předpisy Asociace;
+    4. plnit usnesení a jiná rozhodnutí orgánů Asociace;
+    5. šetřit, chránit a zvelebovat majetek, který slouží Asociaci k zabezpečení její činnosti, jakož i usilovat o dobré jméno Asociace;
+    6. řádně a včas platit členské příspěvky určené orgány Asociace.
 6.	Kolektivní členství zaniká dobrovolným vystoupením, vyloučením, zánikem právnické osoby či jasně vymezené složky právnické osoby nebo při neuhrazení členských příspěvků déle než jeden rok.
-7.	Komise přistoupí k vyloučení takového kolektivního člena, který vyvíjí jménem Asociace jinou činnost, než kterou předpokládají její stanovy a programové prohlášení, nebo který poruší profesní či obecně platné etické zásady, a to i přes napomenutí ze strany předsedy Asociace nebo jím pověřeného zástupce.
+7.	Komise přistoupí k vyloučení takového kolektivního člena, který vyvíjí jménem Asociace jinou činnost, než kterou předpokládají její stanovy a programové prohlášení, nebo který poruší profesní či obecně platné etické zásady, a to i přes napomenutí ze strany předsedy Komise nebo jím pověřeného zástupce.
 
 ### § 9	Čestné členství
 
@@ -128,14 +130,14 @@ Asociace má tyto orgány:
     1. schvalování zprávy o činnosti a hospodaření za uplynulé období, programu činnosti na další období a ročního rozpočtu;
     1. stanovení výše a splatnosti členského příspěvku pro individuální členy, stanovení výše a splatnosti členského příspěvku pro kolektivní členy;
     1. potvrzení či revokace rozhodnutí přijatého Komisí.
-2.	Delegáty tvořící Schůzi delegátů tvoří individuální členové, kteří se rozhodli být delegáty. Každý delegát disponuje hlasem svým a hlasy ostatních členů Asociace, kteří ho pověřili svým zastupováním. Členové Komise jsou zároveň delegáty.
+2.	Delegáty tvořící Schůzi delegátů tvoří individuální členové, kteří se rozhodli být delegáty, a zástupci kolektivních členů, kteří si nevybrali delegáta. Tito zástupci nemusí být individuálními členy Asociace a disponují jedním hlasem. Ostatní delegáti disponují hlasem svým a hlasy ostatních členů Asociace, kteří je pověřili svým zastupováním. Členové Komise jsou zároveň delegáty.
 3.	Schůzi delegátů svolává k zasedání Komise alespoň jednou ročně do 30. června kalendářního roku, pokud je konání Schůze v tomto období možné, jinak bez zbytečného odkladu po odpadnutí překážky. Je-li pro to vážný důvod, svolá Komise Schůzi delegátů kdykoliv.
 4.	Schůze delegátů se svolává elektronickou pozvánkou, na které musí být kromě místa, hodiny a data konání uveden i pořad zasedání. Pozvánka musí být každému delegátovi doručena nejméně 14 dnů před datem zasedání Schůze delegátů, a to na e-mailovou adresu delegáta, kterou pro tento účel Asociaci sdělil.
 5.	Schůze delegátů zahajuje a řídí předseda Komise nebo jiný pověřený člen Komise. Schůze delegátů ze svého středu volí zapisovatele a ověřovatele zápisu. Pokud nedojde k jejich volbě, určí tyto osoba, která řídí zasedání Schůze delegátů.
 6.	Schůze delegátů je schopna se usnášet, jsou-li přítomni delegáti disponující nadpoloviční většinou členských hlasů; po uplynutí 30 minut od předem ohlášeného zahájení Schůze se může usnášet při jakémkoli počtu. Usnesení se přijímá většinou hlasů přítomných delegátů v době usnášení. Každý delegát disponuje hlasem svým a hlasy ostatních členů, kteří ho pověřili svým zastupováním.
 7.	Pro přijetí usnesení v následujících věcech je kromě většiny hlasů přítomných delegátů v době usnášení vyžadována také většina hlasů všech kolektivních členů:
     1. změna výše členských příspěvků kolektivních členů,
-    1. změna stanov týkající se práv a povinností kolektivních členů (ustanovení § 6),
+    1. změna stanov týkající se práv a povinností kolektivních členů (ustanovení § 8),
     1. změna stanov týkající se struktury spolku, tj. ustanovení § 10.
 Hlas kolektivního člena vykonává jeho zástupce, který může tento hlas delegovat.
 8.	O zasedání Schůze delegátů se pořizuje zápis. Správnost a úplnost zápisu stvrzují svým podpisem zapisovatel, ověřovatel zápisu a osoba řídící Schůzi delegátů.
@@ -178,7 +180,7 @@ Hlas kolektivního člena vykonává jeho zástupce, který může tento hlas de
     1. údaje o názvu, sídlu a identifikačním číslu;
     1. údaje o adrese pro doručování tištěné i elektronické korespondence, případně též údaj o telefonním čísle, pokud jej člen poskytl;
     1. údaje o platbách členských příspěvků;
-    1. údaj o tom, koho kolektivní člen za sebe určil jako delegáta;
+    1. údaj o delegátovi určeném podle § 8 odst. 4 písm. d), byl-li určen;
     1. údaj o fyzické osobě, kterou kolektivní člen určil jako svého zástupce v Asociaci podle § 8.2.
 Údaje uvedené v písm. a) a b) a jejich změny je kolektivní člen povinen Asociaci oznámit bez zbytečného odkladu.
 3.	Zápis do seznamu členů se provede na základě rozhodnutí Komise o přijetí člena. Již zapsané údaje se vymazávají po zániku členství. Zápisy a výmazy v seznamu členů provádí Komise.
