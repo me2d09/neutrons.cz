@@ -3,7 +3,7 @@ layout: page
 title: Staňte se členem
 permalink: /clenstvi
 ---
-Česká neutronové asociace, z. s. (CNA) zastupuje zájmy všech uživatelů neutronů v České republice – vědců a studentů. Tyto zájmy hájí **Komise** Asociace, volená každé tři roky podle [stanov](/stanovy). Vznik **CNA** je inspirován obdobnými asociacemi v Evropě. 
+Česká neutronové asociace, z. s. (CNA) zastupuje zájmy všech uživatelů neutronů v České republice – vědců a studentů. Tyto zájmy hájí **Komise** Asociace, volená každé tři roky podle [stanov]({{ "/stanovy" | relative_url }}). Vznik **CNA** je inspirován obdobnými asociacemi v Evropě. 
 
 ### 👉 Stát se členem je jednoduché – přihlaste se přes svou intituci [do členské sekce](https://members.neutrons.cz) a vyplňte přihlášku.
 

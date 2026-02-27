@@ -6,8 +6,8 @@ title: Dokumenty
 Ke stažení zde jsou dostupné:
 
 ### Stanovy spolku
-  - [webová verze](/stanovy)
-  - [verze ve formátu PDF](/files/CNA_stanovy_v3.pdf)
+  - [webová verze]({{ "/stanovy" | relative_url }})
+  - [verze ve formátu PDF]({{ "/files/CNA_stanovy_v3.pdf" | relative_url }} )
 
 ## Výroční zprávy
 
@@ -23,7 +23,7 @@ Ke stažení zde jsou dostupné:
         {% for f in site.data.zapisy %}
         <tr>
         <td>{{ f.datum }}</td>
-        <td><a href="/docs/{{ f.soubor }}"><i class="fas fa-file-pdf"></i> {{ f.soubor }}</a></td>
+        <td><a href="{{ site.baseurl }}/docs/{{ f.soubor }}"><i class="fas fa-file-pdf"></i> {{ f.soubor }}</a></td>
         <td>{{ f.zapsal }}</td>
         </tr>
         {% else %}
