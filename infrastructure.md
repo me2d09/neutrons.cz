@@ -13,7 +13,7 @@ je široce využíván členy komunity zabývajícími se rozptylem neutronů po
 ### European Neutron Scattering Association (ENSA)
 
 je asociace delegátů zastupujících organizace uživatelů neutronů v Evropě. ENSA se mimo jiné podílí na pořádání mezinárodních konferencí ECNS, udílení cen za mimořádné příspěvky k rozvoji vědy s využitím neutronů, přípravě publikací monitorující zájmy a potřeby vědecké komunity v oboru s dopadem na další rozvoj infrastruktur pro výzkum s neutrony v Evropě.  
-<https://ensa.ife.no/>
+<https://ensa-neutron.eu/>
 
 ### League of advanced European Neutron Sources (LENS)
 
