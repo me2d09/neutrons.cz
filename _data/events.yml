@@ -5,13 +5,6 @@
   location: 'Online, UK'
   type: school
 
-- date: '2026-03-23'
-  end_date: '2026-04-28'
-  title: 'Test'
-  url: 'https://indico.stfc.ac.uk/event/792/'
-  location: 'Online, UK'
-  type: school
-
 - date: '2026-04-26'
   end_date: '2026-05-01'
   title: 'Gordon Research Conference (GRC) on Neutron Scattering'
