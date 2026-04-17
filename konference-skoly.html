@@ -1,0 +1,156 @@
+---
+layout: page
+title: Konference, školy
+permalink: /konference-skoly
+---
+
+{% assign manual_events = site.data.events %}
+{% assign imported_events = site.data["import"] %}
+
+{% unless manual_events %}
+  {% assign manual_events = "" | split: "" %}
+{% endunless %}
+
+{% unless imported_events %}
+  {% assign imported_events = "" | split: "" %}
+{% endunless %}
+
+{% assign manual_titles = manual_events | map: "title" %}
+{% assign imported_unique = "" | split: "" %}
+
+{% for imported_event in imported_events %}
+  {% unless manual_titles contains imported_event.title %}
+    {% assign imported_unique = imported_unique | push: imported_event %}
+  {% endunless %}
+{% endfor %}
+
+{% assign sorted_events = manual_events | concat: imported_unique | sort: "date" %}
+
+{% if sorted_events and sorted_events.size > 0 %}
+<div class="events-page">
+  <div class="events-hero">
+    <div class="events-copy">
+      <p class="events-kicker">Přehled akcí</p>
+      <p class="events-lead">Konference, workshopy a školy pro neutronovou komunitu na jednom místě.</p>
+      <div class="events-note">
+        <p class="events-note-copy">Víte o konferenci, škole nebo jiné akci, která by tu měla být? Napište nám na <a href="mailto:info@neutrons.cz">info@neutrons.cz</a>.</p>
+        <ul class="events-legend">
+          <li class="events-legend-item">
+            <span class="events-type-badge event-type-cna">CNA</span>
+            <span>Akce pořádané Českou neutronovou asociací.</span>
+          </li>
+          <li class="events-legend-item">
+            <span class="events-type-badge event-type-school">Škola</span>
+            <span>Školy, kurzy a vzdělávací programy.</span>
+          </li>
+          <li class="events-legend-item">
+            <span class="events-type-badge event-type-conference">Konference</span>
+            <span>Konference, workshopy a odborná setkání.</span>
+          </li>
+          <li class="events-legend-item">
+            <span class="events-type-badge event-type-imported">Import</span>
+            <span>Akce převzaté z externích zdrojů.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="events-calendar-card" data-events-calendar>
+      <div class="events-calendar-top">
+        <p class="events-kicker">Kalendář akcí</p>
+        <div class="events-calendar-controls">
+          <button type="button" class="events-calendar-nav" data-calendar-prev aria-label="Předchozí měsíc">&larr;</button>
+          <h2 class="events-calendar-label" data-calendar-label></h2>
+          <button type="button" class="events-calendar-nav" data-calendar-next aria-label="Další měsíc">&rarr;</button>
+        </div>
+      </div>
+
+      <div class="events-calendar-weekdays" aria-hidden="true">
+        <span>Po</span>
+        <span>Út</span>
+        <span>St</span>
+        <span>Čt</span>
+        <span>Pá</span>
+        <span>So</span>
+        <span>Ne</span>
+      </div>
+
+      <div class="events-calendar-grid" data-calendar-grid></div>
+
+      <div class="events-calendar-details">
+        <button type="button" class="events-calendar-reset" data-calendar-reset>Zobrazit vše</button>
+      </div>
+
+      <script type="application/json" data-events-json>{{ sorted_events | jsonify }}</script>
+    </section>
+  </div>
+
+  <div class="events-listing" data-events-listing>
+    <p class="events-kicker events-listing-title" data-events-listing-title>Všechny akce</p>
+    <div class="events-list">
+    {% for event in sorted_events %}
+      {% assign event_type = event.type | default: "conference" %}
+      {% assign has_end_date = false %}
+      {% assign event_start_key = event.date | date: "%F" %}
+      {% assign event_end_key = event.date | date: "%F" %}
+      {% if event.end_date %}
+        {% assign event_end_key = event.end_date | date: "%F" %}
+        {% if event_end_key != event_start_key %}
+          {% assign has_end_date = true %}
+        {% endif %}
+      {% endif %}
+      {% case event_type %}
+        {% when "cna" %}
+          {% assign event_type_label = "CNA" %}
+        {% when "school" %}
+          {% assign event_type_label = "Škola" %}
+        {% when "conference" %}
+          {% assign event_type_label = "Konference" %}
+        {% when "imported" %}
+          {% assign event_type_label = "Import" %}
+        {% else %}
+          {% assign event_type_label = "Konference" %}
+      {% endcase %}
+
+      <article
+        class="events-item event-type-{{ event_type }}"
+        data-event-item
+        data-event-start="{{ event_start_key }}"
+        data-event-end="{{ event_end_key }}"
+      >
+        <div class="events-date-badge">
+          <span class="events-day">{{ event.date | date: "%-d" }}</span>
+          <span class="events-month">{{ event.date | date: "%m/%Y" }}</span>
+        </div>
+
+        <div class="events-content">
+          <div class="events-item-topline">
+            <span class="events-type-badge event-type-{{ event_type }}">{{ event_type_label }}</span>
+            <p class="events-item-date">
+              {% if has_end_date %}
+                {{ event.date | date: "%-d. %-m. %Y" }} - {{ event.end_date | date: "%-d. %-m. %Y" }}
+              {% else %}
+                {{ event.date | date: "%-d. %-m. %Y" }}
+              {% endif %}
+            </p>
+          </div>
+          <h3 class="events-item-title">
+            <a href="{{ event.url }}" target="_blank" rel="noopener noreferrer">{{ event.title }}</a>
+          </h3>
+          <p class="events-item-meta">{{ event.location }}</p>
+        </div>
+      </article>
+    {% endfor %}
+    </div>
+    <div class="events-filter-empty" data-events-empty hidden>
+      <p>Pro tento výběr zatím není evidovaná žádná akce.</p>
+    </div>
+  </div>
+</div>
+
+<script src="{{ '/js/events-calendar.js' | relative_url }}"></script>
+{% else %}
+<div class="events-empty-state">
+  <p>Seznam akcí je zatím prázdný.</p>
+</div>
+{% endif %}
