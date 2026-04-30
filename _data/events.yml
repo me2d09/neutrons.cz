@@ -1,17 +1,3 @@
-- date: '2026-04-23'
-  end_date: '2026-04-28'
-  title: 'ISIS Reflectometry Training course for Soft Matter and Hard Condensed Matter thin films'
-  url: 'https://indico.stfc.ac.uk/event/792/'
-  location: 'Online, UK'
-  type: school
-
-- date: '2026-04-26'
-  end_date: '2026-05-01'
-  title: 'Gordon Research Conference (GRC) on Neutron Scattering'
-  url: 'https://www.grc.org/neutron-scattering-conference/2026/'
-  location: 'Barcelona, Spain'
-  type: conference
-
 - date: '2026-05-11'
   end_date: '2026-05-12'
   title: 'High Pressure Workshop 2026'
@@ -143,6 +129,13 @@
   url: 'https://workshops.ill.fr/e/SummerSchool2026'
   location: 'Grenoble, France'
   type: school
+
+- date: '2026-09-06'
+  end_date: '2026-09-10'
+  title: 'International Symposium on Physics of Materials'
+  url: 'https://www.ispma-conf.cz/'
+  location: 'Prague'
+  type: conference
 
 - date: '2026-09-07'
   end_date: '2026-09-18'
