@@ -179,6 +179,13 @@
   location: 'Munich'
   type: conference
 
+- date: '2027-02-01'
+  end_date: '2027-02-05'
+  title: 'NEPHEWS Neutron School'
+  url: 'https://beamtime.eu/nephews-neutron-school/'
+  location: 'Prague, Czechia'
+  type: school
+  
 - date: '2027-03-07'
   end_date: '2027-03-12'
   title: 'MATRAC 1 School: Application of Neutrons and Synchrotron Radiation in Engineering Materials Science'
